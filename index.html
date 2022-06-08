@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>Document</title>
+    <!-- 
+        Assigment 0U8A
+        -Using PHP collect data from form submission
+        -Use logic to match user input radio selection to image
+        -Take user to a new page and show the wanted output
+        -Created a form that has radio button to handle user input
+
+     -->
+</head>
+<body>
+    <div class="container">
+        <h1>❤️‍🔥 Pick a Furbaby ❤️‍🔥 </h1>
+        <form method="get" action="form.php">
+        <!-- <p>
+        Name Your Kitten: <input type="text" name="name" size="10" />
+        </p> -->
+    
+        <h2>Type of Kitten:</h2>
+        <input type="radio" id="american" name="kitten" value="amer" checked="checked">
+        <label for="american">American</label><br>
+        <input type="radio" id="persian" name="kitten" value="pers">
+        <label for="persian">Persian</label><br>
+        <input type="radio" id="russian" name="kitten" value="russ">
+        <label for="russian">Russian Blue</label><br>
+        <input type="radio" id="ragdoll" name="kitten" value="ragd">
+        <label for="ragdoll">Rag Doll</label><br>
+        <input type="radio" id="oriental" name="kitten" value="orie">
+        <label for="oriental">Oriental</label>
+      <br>
+        <p>
+            Push button for instant stress relief!
+        <br />
+        <input type="submit" value="Push" class="btn-grn" />
+        </p>
+        </form>
+
+    </div>
+    
+</body>
+</html>
